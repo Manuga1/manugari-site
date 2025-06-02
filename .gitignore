@@ -1,0 +1,15 @@
+# Node dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Local Vercel folder
+.vercel/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
