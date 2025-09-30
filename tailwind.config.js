@@ -1,17 +1,27 @@
-/** @type {import('tailwindcss').Config} */
+const typography = require('@tailwindcss/typography');
+
 module.exports = {
-  darkMode: 'class',                      // enable class-based dark mode
+  darkMode: 'class',
   content: [
-    './src/app/**/*.{js,jsx,ts,tsx}',     // adjust if needed
+    './src/app/**/*.{js,jsx,ts,tsx}',
     './src/components/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
     extend: {
       colors: {
-        'dark-bg': '#1E293B',             // your soft blue‑gray
+        'dark-bg': '#1E293B',
       },
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            p: {
+              marginTop: theme('spacing.4'),
+              marginBottom: theme('spacing.4'),
+            },
+          },
+        },
+      }),
     },
   },
-  plugins: [],
+  plugins: [typography],
 };
-
