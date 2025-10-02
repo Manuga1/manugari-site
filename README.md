@@ -56,3 +56,22 @@ src:
   utils: Helpers & configs
 public: Static assets (images, icons)
 README.md: Project documentation
+
+```
+
+---
+
+## 📬 Contact
+
+If you’d like to connect or share feedback:  
+- 🌐 Website: [yourdomain.com](https://yourdomain.com)  
+- 💌 Email: [your-email@example.com]  
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](./LICENSE) file for details.
+
+---
