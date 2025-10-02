@@ -1,27 +1,27 @@
-# 🌐 Personal Blog & Portfolio
+#  Personal Blog & Portfolio
 
 This is the repository for my personal website — a space where I share my writing, projects, and experiences.  
 It combines a **blog**, a **weekly neuroscience newsletter**, a **photo gallery**, and a **timeline of my senior year and college journey**.
 
 ---
 
-## 📖 Sections
+##  Sections
 
-- **📝 Blog**  
+- ** Blog**  
   Short essays, reflections, and posts about topics I care about.
 
-- **🧠 Neuroscience Weekly Newsletter**  
+- ** Neuroscience Weekly Newsletter**  
   Weekly updates covering concepts, research, and accessible science writing in neuroscience.
 
-- **📸 Photo Gallery**  
+- ** Photo Gallery**  
   A curated collection of my favorite photos and captured moments.
 
-- **📅 Timeline**  
+- ** Timeline**  
   An interactive timeline documenting my senior year of high school and my transition into college.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Clean, modern, responsive design (mobile & desktop friendly)  
 - Smooth animations and transitions  
@@ -31,7 +31,7 @@ It combines a **blog**, a **weekly neuroscience newsletter**, a **photo gallery*
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Next.js** – React framework for building the site  
 - **React** – interactive components  
@@ -41,7 +41,7 @@ It combines a **blog**, a **weekly neuroscience newsletter**, a **photo gallery*
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 
 ```yaml
@@ -61,17 +61,10 @@ README.md: Project documentation
 
 ---
 
-## 📬 Contact
+##  Contact
 
 If you’d like to connect or share feedback:  
-- 🌐 Website: [yourdomain.com](https://yourdomain.com)  
-- 💌 Email: [your-email@example.com]  
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.  
-See the [LICENSE](./LICENSE) file for details.
+-  Website: (https://manugari-site.vercel.app/)
+-  Email: garimellamaanas@gmail.com  
 
 ---
