@@ -11,7 +11,7 @@ I've always maintained that graduation isn't a happy moment, but a sad one; but 
 
 I've never been the type to dance to parties or get excited when some obscure rap artist releases a new song, always preferring the company of my close friends, instruments, and books to loud music and bright lights. But this last year has been different -- I've tried to hang out with my friends as much as possible, and I've even tried to go to a party or two, just for the experience.
 `
-,
+    ,
   },
   {
     slug: 'summer-thoughts',
@@ -47,12 +47,121 @@ And we were destined to enjoy it.
 `,
   },
   {
-    slug: 'first-week-at-vanderbilt',
-    title: 'my first week at vanderbilt',
-    date: '2025-09-01',
+    slug: 'first-semester',
+    title: 'first semester',
+    date: '2026-01-23',
     content: `
-Classes, new friends, and the chaos of move-in day.
-`,
-  },
-  // More Future Posts Go Here!
+*6 min read*
+
+*“The unexamined life is not worth living.” — Socrates*
+--- 
+
+Happy New Year!
+
+I realize that as of late I haven't been really keeping up with this journal, which is especially tragic considering I've spent the bulk of the last few months doing basically nothing that actually interests me. I'm not sure if my lack of written content is more explicable by my lack of time to write, or my lack of things to write about (though I have a sneaking suspicion it's probably a sad concoction of both of them). However, despite my apparent dissatisfaction with my first semester in college, I think it's still worth sharing, if only so the few of you who read this find some tainted version of a profound truth in what I have to share.
+
+So, without further ado, here is what Maanas's first semester at THE Vanderbilt University (or as Chancellor Diermeier would say it, "VUNDHERBILT!!!") consisted of:
+
+---
+
+## I. Introductions
+
+When leaving for college, I was entirely apathetic. In the moment, I mistook my apparent lack of emotion to mean I was a man of incredible mental fortitude. I would soon realize that this was not the case.
+
+The first couple of days felt incredible. It would be a disservice to the Vanderbilt events planning group to summarize them in just a few sentences, but unfortunately they’ve left me no choice. Some days were completely packed with nearly fourteen hours of activities—around six of which were actually required of all students (but what self-respecting Vanderbilt student would miss even a non-required workshop, right?). There were also evening social activities every single day. I would sometimes meet over one hundred people in a day, and people would desperately claw through crowds trying to meet more people as if their lives depended on it—myself included.
+
+Day six, however, I remember vividly.
+
+I had a snow cone in my hand, filled with some unholy mixture of piña colada, vanilla, strawberry, and God knows what else. It was hour two of standing in the crowd, and a couple of students had started dancing near the center circle around forty-five minutes earlier. I took a spoonful of my snow cone as one of my “old” friends (which is funny, considering I had technically met him only days prior) came up to me and told me—for the fifteenth time that week—that he was about to introduce me to the “coolest person ever.”
+
+Nevertheless, I was inclined to believe him.
+
+From behind him emerged a tall, well-spoken international student with a German accent. He grasped my hand with a firm handshake and, after roughly fifteen seconds of pleasantries, lost interest entirely upon noticing that my watch was not a Hamilton. He then proceeded to have a full conversation with my friend about his own watch collection.
+
+I didn’t know much about watches. I only knew that the one I was wearing had been given to me lovingly by my parents as a birthday gift while I was in India just a month earlier, and that it was the most expensive single piece of clothing or jewelry I had ever owned.
+
+It was at that moment that I began to question my place at this school.
+
+Here were two seemingly average people who, with a single glance, dismissed me—preferring instead to discuss the size of their watch collections, unimpressed by any other value I might have brought to the conversation.
+
+Later that night, I retreated to my dorm room, which quite tragically has a full view of where the gathering was taking place. As I sat there, the words of my high school advisor echoed relentlessly in my head: *big fish, little pond.*
+
+From an intellectual standpoint, I wasn’t worried. I had long since abandoned the idea of “natural intelligence,” preferring the ideology of hard work instead. But I had never realized that her analogy could apply to other aspects of life as well.
+
+One of my defining traits—one I strongly recommend getting rid of if you share it—is an unwillingness to make others worry about me. I refused to call my parents or my friends back home that night. Instead, I unpacked my ukulele (which I had bought in India just weeks earlier) and decided to learn a new song.
+
+That night, I learned how to play *Sparks* by Coldplay.
+
+Over the next month, this pattern continued. I would participate in some social activity—whether a school-sanctioned networking event, a club general body meeting, or even one night singing on Broadway Street—and at the end of each day, something would remind me of the ways in which I was still a “little fish.” Each night, I would pull out my ukulele and learn another song.
+
+Soon, my desperate need to socialize began to take its toll. Grades slipped. Emails went unread. Opportunities passed quietly by.
+
+I was fumbling the most fundamental part of college—the education itself.
+
+Worse still, the people around me were doing the same.
+
+One of my closest friends, who I’ll refer to as *N*, became so inebriated one night that he had to be hospitalized. What shook me most was not the event itself, but the person it happened to. N was the first person I had ever genuinely believed possessed more drive for success than I did.
+
+Though I had personally stayed away from drinking and drugs, something clearly wasn’t working.
+
+Something needed to change—and fast.
+
+---
+
+## II. Lock In
+
+After N recovered, nearly three months of the semester had passed.
+
+By coincidence—or luck—we both had the opportunity to volunteer at a medical camp in his hometown of Cleveland, Tennessee. There, we saw firsthand the staggering contrast between the patients—many struggling with addiction, homelessness, or severe mental illness—and the students we had been surrounding ourselves with back on campus.
+
+That night, lying awake in his house, we talked honestly about our ambitions. We both realized something uncomfortable: wanting success was not enough.
+
+So we made a decision.
+
+We dumbed down our phones. Deleted social media. Removed distractions. We decided to become the people we said we wanted to be.
+
+For the next seventy-five days, we challenged ourselves relentlessly. We studied at least two hours a day. We went to the gym daily. Drank a gallon of water. Read for thirty minutes. We woke up early and went on runs. Slowly, discipline replaced chaos.
+
+For me, as an aspiring MD-PhD, that meant joining a research lab and getting involved in healthcare organizations. For N, it meant joining a pre-tech fraternity and immersing himself in startup initiatives. Later in the semester, the two of us would end up working on one alongside two medical students.
+
+As the weeks passed, the people around me changed. Many from the early social scene faded away, while a small handful remained.
+
+Strangely, I still felt like a small fish—perhaps even smaller than before—but this time, in a good way.
+
+I was no longer intimidated by material things. I was intimidated by work ethic. By effort. By how much others were willing to sacrifice.
+
+That fear pushed me forward.
+
+I spent the remainder of the semester repairing my grades—especially in chemistry and psychology—and working, deliberately, on myself.
+
+And suddenly, we were at the present.
+
+---
+
+## III. Present Day
+
+Despite everything that happened during my first semester, I’m grateful for what I learned—about myself, and about people.
+
+In high school, I had been in control of nearly everything. I took for granted how painful—but necessary—it can be to be outworked.
+
+Over the last few weeks, I’ve heard the same phrase repeated by countless people: *you only live once.*
+
+That idea has become my guiding principle for second semester.
+
+If the sole purpose of college is to reach some distant graduate program, then perhaps I’ve misunderstood the meaning of success itself.
+
+So this semester, I’ve started trying new things. My passion for programming and creating has been reignited, and I’ve begun working on a startup initiative focused on improving healthcare differential charts. Alongside friends, I’ve helped start a podcast interviewing local healthcare workers. I’ve even been attempting to get Vanderbilt’s first-ever Desi A Cappella group off the ground.
+
+As I continue exploring, I hope I learn how to balance being a pre-MD/PhD student with being a human—one with only a single life and infinitely many experiences to experience.
+
+Don’t worry. Fish have to grow bigger at some point.
+
+I’ll try to continue updating this blog at least once every two weeks—maybe every week. And hopefully, future posts will be more personal.
+
+After all, I won’t have an entire semester’s worth of content to cover next time :)
+`
+  }
+
 ];
+
+
