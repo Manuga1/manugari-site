@@ -6,7 +6,11 @@ export const blogPosts = [
     title: 'i graduated',
     date: '2025-06-01',
     content: `
-  This is my first blog post. I think it stems from a desire to hold on to that which will soon be lost.
+    *3 min read*
+
+  *“Every new beginning comes from some other beginning's end.” — Seneca*
+  --- 
+This is my first blog post. I think it stems from a desire to hold on to that which will soon be lost.
 
 I've always maintained that graduation isn't a happy moment, but a sad one; but now I'm inclined to change my mind.
 
