@@ -6,11 +6,27 @@ export const blogPosts = [
     title: 'i graduated',
     date: '2025-06-01',
     content: `
-I've always maintained that graduation isn't a happy moment, but a sad one; but now I'm inclined to change my mind.  
+  This is my first blog post. I think it stems from a desire to hold on to that which will soon be lost.
 
+I've always maintained that graduation isn't a happy moment, but a sad one; but now I'm inclined to change my mind.
 
 I've never been the type to dance to parties or get excited when some obscure rap artist releases a new song, always preferring the company of my close friends, instruments, and books to loud music and bright lights. But this last year has been different -- I've tried to hang out with my friends as much as possible, and I've even tried to go to a party or two, just for the experience.
-`
+
+Over the last few months of senior year, time seemed to accelerate without warning. What began as an ordinary ending slowly transformed into a series of moments I didn’t realize I was collecting. I went to Houston with my friends for the FTC Robotics International Championship, a trip defined less by where we were and more by the simple novelty of being together somewhere unfamiliar. I attended FBLA Nationals, surrounded by thousands of people chasing their ambitions , while quietly realizing how close I was to having to chase my ambitions without my friends behind me.
+
+Then there was our senior trip — one final, collective pause on the shore of lake michigan before scattering - where the days blurred into one another. Around a campfire and in the hot tub talked without urgency, laughed without reason, and lived without the constant awareness of what came next. For that brief stretch of time, the future loosened its iron grip on my present.
+
+And now, everyone is leaving.
+
+The people, the routines, the fundamental essence of my life — all of it is dissolving at once. In a matter of weeks, I will begin again at Vanderbilt, surrounded by unfamiliar faces and an unfamiliar version of myself. It feels strange to stand at the edge of something new while still mourning that which has not yet fully ended.
+
+But maybe that is what gives everything its value.
+
+If nothing disappeared, nothing would matter. If moments did not expire, they would never hold our admiration. Perhaps meaning is not found in permanence, but in transience — in the knowledge that time is limited, and therefore sacred.
+
+I don’t think graduation is happy. But I no longer think it is just sad either. It is the quiet recognition that something mattered enough to grieve — and that soon, something new will matter just as deeply.
+
+    `
     ,
   },
   {

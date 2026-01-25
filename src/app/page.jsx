@@ -48,11 +48,11 @@ export default function Home() {
 <section className="py-12 max-w-2xl mx-auto px-4 text-center">
   <img
     src="/images/avatar.png"
-    alt="Manu Garimella"
+    alt="Maanas Garimella"
     className="w-24 h-24 rounded-full mx-auto mb-4"
   />
   <p className="text-gray-700 dark:text-gray-300">
-    I’m Manu Garimella, a neuroscience student at Vanderbilt on the pre‑med track. I blend lab research with clinical work—and a healthy dose of philosophy—to explore how our brains shape who we are.
+    I’m Maanas Garimella, a neuroscience student at Vanderbilt on the pre‑med track. I blend lab research with clinical work—and a healthy dose of philosophy—to explore how our brains shape who we are.
   </p>
 </section>
 
