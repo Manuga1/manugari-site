@@ -1,5 +1,5 @@
 export default function Images() {
-  const images = Array.from({ length: 20 }, (_, i) => ({
+  const images = Array.from({ length: 24 }, (_, i) => ({
     src: `/images/my-photo${i + 1}.jpeg`,
     alt: `Photo ${i + 1}`,
   }));
