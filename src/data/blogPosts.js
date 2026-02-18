@@ -180,8 +180,48 @@ I’ll try to continue updating this blog at least once every two weeks—maybe 
 
 After all, I won’t have an entire semester’s worth of content to cover next time :)
 `
-  }
+  },
+  {
+    slug: 'life-is-good',
+    title: 'life is good',
+    date: '2026-02-17',
+    content: ` 
+*4 min read*
 
+*“Carpe diem.” — John Keating*
+---
+
+Hello!
+
+I am afraid I have once again forgotten to post. Today's post will be short but (in my humble opinion) quite interesting. I believe I have found some new interests. 
+
+I spent the majority of first semester trying to figure out who I was going to be. The charismatic person, smart person, sociable person, YOLO version, and I've come to the realization I can do a little bit of everything. I can be charismatic when I talk to people; I can be smart while I study with my friends and try to learn and explain things; I can be sociable when we go to basketball games or when I throw to my friends for intramural football; I can even embody 'YOLO' and do dumb things that have 0% payout but 100% social risk. But to try and be everything too has it's faults, and I think I figured that out first semester. I'm slowly locking in to who I want to be, and how I want to be perceived; hopefully I'm not doing too terrible a job. 
+
+But that's enough talk about abstract things, let's get down to the concrete details of my last few weeks. 
+
+---
+
+## Recent Weeks
+
+First things first, I had the most glorious weekend since coming to college. There's too much to say and too little space (I'll try not to bore you too much), so I'll condense it down to bullet points:
+
+1. My parents were in town!!! My cravings for Indian food have been satiated, and I am no longer homesick.  
+2. I got approved as an RA for next year!! Added bonus, I'm not on freshman campus -- they placed me in Highlands, next to the gym, so now the bulk of my daily commute will consist of an elevator ride downstairs.  
+3. I won 3000 dollars from the Hult Prize @Vanderbilt! I worked with a med student who pitched the idea to me, and I've re-tapped my love for building and programming. We built a differential generator that uses our proprietary algorithm to provide both possible diagnoses, and an optimizer that algorithmically provides questions and tests to whittle down the diagnosis list. We are going to Boston for the national competition May 2nd!!!!  
+4. I got an A on all of my midterms. Honorable mention -- I got 100% on my physics midterm :)  
+5. We won our first intramural football game. We have one injury, one pick, and 1 turnover + the other team had 2 guys that were (supposedly) D2 recruits from high school, but we still won (15 - 6). I am afraid my tennis elbow may be coming back, but oh well. Small price to pay.  
+
+---
+
+So yeah, that's been my last couple weeks. I never thought I was capable of memorizing so much information for my Bio midterm, but somehow I memorized 256 slides (i like that number) worth of information. 
+
+Oh and I almost forgot -- we got a week off of school because of the snow. When I read on the news that Nashville completely shuts down for even an inch, I didn't believe it; but unironically the city was at a standstill. Me and my friend decided to use our week off to volunteer at a local soup kitchen because so many of the nearby families were without electricity (and therefore heat). We also managed to convince a bunch of students to donate meal swipes, so we ended up delivering ~30,000 calories worth of food to the soup kitchen. We also spent our week off studying for our upcoming Bio and Chem exams (god had saved us from being massacred). 
+
+---
+
+I think that's about it. Hopefully the next few weeks are as good as the last, but as always; carpe diem :)
+`
+  }
 ];
 
 
