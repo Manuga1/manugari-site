@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { neuroPosts } from '../data/neuro101';
+import { blogPosts } from '../data/blogPosts';
 import { chronicles } from '../data/chronicles';
 import { useState, useEffect } from 'react';
 
@@ -27,6 +27,11 @@ export default function Home() {
   const milestone = upcoming || sortedChronicles[sortedChronicles.length - 1];
   const milestoneLabel = upcoming ? 'Upcoming Milestone' : 'Latest Milestone';
 
+  // Most recent blog post
+  const latestPost = [...blogPosts].sort(
+    (a, b) => new Date(b.date) - new Date(a.date)
+  )[0];
+
   return (
     <>
       {/* Hero Section */}
@@ -39,16 +44,16 @@ export default function Home() {
         </p>
         <div className="mt-8 space-x-4">
           <Link
-            href="/neuro101"
+            href="/projects"
             className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
           >
-            Neuro 101
+            Projects
           </Link>
           <Link
-            href="/projects"
+            href="/chronicles"
             className="px-6 py-3 border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-100 dark:hover:bg-blue-900 transition"
           >
-            Projects
+            Chronicles
           </Link>
         </div>
       </section>
@@ -70,17 +75,17 @@ export default function Home() {
       <section className="py-12 max-w-4xl mx-auto px-4">
         <h2 className="text-3xl font-semibold mb-6">At a Glance</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {/* Latest Neuro 101 */}
+          {/* Latest Blog Post */}
           <div className="border p-6 rounded-lg hover:shadow-lg transition dark:border-gray-700">
-            <h3 className="text-xl font-semibold">Latest Neuro 101</h3>
+            <h3 className="text-xl font-semibold">Latest Blog Post</h3>
             <p className="text-gray-500 dark:text-gray-400 mt-1">
-              {neuroPosts[0].date}
+              {latestPost.date}
             </p>
             <Link
-              href={`/neuro101/${neuroPosts[0].date}`}
+              href={`/blog/${latestPost.slug}`}
               className="mt-3 inline-block text-blue-600 dark:text-blue-400 hover:underline"
             >
-              {neuroPosts[0].title} →
+              {latestPost.title} →
             </Link>
           </div>
 
