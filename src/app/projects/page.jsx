@@ -18,7 +18,7 @@ export default function Projects() {
        </div>
        <div className="border p-6 rounded-lg hover:shadow-lg transition dark:border-gray-700">
         <h3 className="text-2xl font-bold">DiffEx: AI-Powered Differential Diagnosis</h3>
-        <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">Co-founded with Ami Singh · 1st place, Hult Prize @ Vanderbilt</p>
+        <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">1st place, Hult Prize @ Vanderbilt</p>
         <p className="text-gray-600 dark:text-gray-400 mt-3">
           <strong>DiffEx</strong> is an AI clinical decision-support tool I co-founded to reduce diagnostic error and strengthen medical reasoning. Given a patient’s symptoms, history, and vitals, it generates a ranked differential diagnosis and then recommends the single most informative next question or test to narrow it down—so even a minimally trained health worker can reason more like a specialist. Against published clinical vignette sets it reached <strong>85% top-1 and 96% top-3 accuracy</strong>, beating a 67% physician baseline and leading symptom checkers like Ada, Babylon, and Isabel, with its biggest edge on the ambiguous, overlapping presentations where clinicians are most vulnerable to anchoring bias. DiffEx won 1st place and $3,000 at the Hult Prize @ Vanderbilt and advanced to the U.S. National Competition in Boston.
         </p>
