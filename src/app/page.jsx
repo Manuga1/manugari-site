@@ -88,7 +88,7 @@ export default function Home() {
           <div className="border p-6 rounded-lg hover:shadow-lg transition dark:border-gray-700">
             <h3 className="text-xl font-semibold">Top Project</h3>
             <p className="text-gray-500 dark:text-gray-400 mt-1">
-              How Somatostatin Might Drive Alzheimer’s Disease
+              Mapping How Huntington’s Disease Rewires the Brain
             </p>
             <Link
               href="/projects"
