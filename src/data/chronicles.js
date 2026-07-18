@@ -1,12 +1,12 @@
 // src/data/chronicles.js
 export const chronicles = [
   {
-    date: '2021-09-01',
-    title: 'Senior Year Begins',
-    description: 'First day of senior year of high school—new goals: top grades, and best memories ever',
+    date: '2023-08-31',
+    title: 'Junior Year Begins',
+    description: 'First day of junior year of high school—new goals: top grades, and best memories ever',
   },
   {
-    date: '2023-08-21',
+    date: '2023-09-10',
     title: 'The Research Journey Begins',
     description: 'Kicked off my Alzheimer’s research at Des Moines University, diving into it from a biostatics and genomic perspective.',
   },
@@ -93,7 +93,7 @@ export const chronicles = [
   {
     date: '2026-07-15',
     title: 'Building a Free Medical Camp in Guatemala',
-    description: 'Flew to Guatemala from July 15–19 to single-handedly organize a free medical camp in partnership with Hospital General San Juan de Dios, funded by the Simon Collier Grant from Vanderbilt’s CLACX (Center for Latin American, Caribbean, and Latinx Studies), while conducting public health research on the ground.',
+    description: 'Flew to Guatemala from July 15–19 to solo organize a free medical camp in partnership with Hospital General San Juan de Dios, funded by the Simon Collier Grant from Vanderbilt’s CLACX (Center for Latin American, Caribbean, and Latinx Studies), while conducting public health research on the ground.',
   },
 
   // add more entries here...
