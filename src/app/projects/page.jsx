@@ -31,7 +31,7 @@ export default function Projects() {
        </div>
        <div className="border p-6 rounded-lg hover:shadow-lg transition dark:border-gray-700">
         <h3 className="text-2xl font-bold">Reducing Diagnostic Inequity in Guatemala</h3>
-        <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">Public health research · Simon Collier Grant, Vanderbilt CLACX · with Ami Singh</p>
+        <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">Public health research · Simon Collier Grant, Vanderbilt CLACX</p>
         <p className="text-gray-600 dark:text-gray-400 mt-3">
           Diagnostic inequity—unequal access to timely, accurate diagnosis—is a central driver of global health disparities. In Guatemala, 65% of people live in rural areas but only 20% of physicians practice outside major cities, leaving Indigenous communities to face compounding linguistic, cultural, and structural barriers to care: 81% of HIV patients present at late stages, and tuberculosis routinely goes undetected for months. My research asks whether an AI differential-diagnosis system (DiffEx) can help close that gap in a real low-resource setting. This summer I’m field-testing it in Guatemala—alongside a free medical camp I organized solo, funded by the Simon Collier Grant from Vanderbilt’s CLACX—to measure real-world usability and how well it aligns with local epidemiology, using the findings to refine its knowledge base and demographic priors for low- and middle-income contexts.
         </p>
