@@ -17,6 +17,16 @@ export default function Home() {
     }, 100);
     return () => clearInterval(iv);
   }, []);
+
+  // Chronologically sorted timeline, plus the next upcoming (or most recent) milestone
+  const sortedChronicles = [...chronicles].sort(
+    (a, b) => new Date(a.date) - new Date(b.date)
+  );
+  const now = new Date();
+  const upcoming = sortedChronicles.find((item) => new Date(item.date) >= now);
+  const milestone = upcoming || sortedChronicles[sortedChronicles.length - 1];
+  const milestoneLabel = upcoming ? 'Upcoming Milestone' : 'Latest Milestone';
+
   return (
     <>
       {/* Hero Section */}
@@ -81,24 +91,24 @@ export default function Home() {
               How Somatostatin Might Drive Alzheimer’s Disease
             </p>
             <Link
-              href="/projects/sst-alzheimers"
+              href="/projects"
               className="mt-3 inline-block text-blue-600 dark:text-blue-400 hover:underline"
             >
               Read More →
             </Link>
           </div>
 
-          {/* Latest Milestone */}
+          {/* Latest / Upcoming Milestone */}
           <div className="border p-6 rounded-lg hover:shadow-lg transition dark:border-gray-700">
-            <h3 className="text-xl font-semibold">Upcoming Milestone</h3>
+            <h3 className="text-xl font-semibold">{milestoneLabel}</h3>
             <p className="text-gray-500 dark:text-gray-400 mt-1">
-              {chronicles[chronicles.length - 1].date}
+              {milestone.date}
             </p>
             <Link
-              href="d/chronicles"
+              href="/chronicles"
               className="mt-3 inline-block text-blue-600 dark:text-blue-400 hover:underline"
             >
-              {chronicles[chronicles.length - 1].title} →
+              {milestone.title} →
             </Link>
           </div>
         </div>
@@ -111,8 +121,8 @@ export default function Home() {
 <section className="py-12 border border-gray-200 dark:border-gray-700">
   <h2 className="text-3xl font-semibold text-center mb-6">Pre‑Med Timeline</h2>
   <div className="flex overflow-x-auto px-4 space-x-6">
-    {chronicles.map((item) => (
-      <div key={item.date} className="flex-none text-center">
+    {sortedChronicles.map((item) => (
+      <div key={`${item.date}-${item.title}`} className="flex-none text-center">
         <div className="w-3 h-3 bg-blue-600 dark:bg-blue-400 rounded-full mx-auto"></div>
         <p className="mt-2 text-sm text-gray-700 dark:text-gray-300">{item.date}</p>
         <p className="mt-1 text-sm font-medium text-gray-900 dark:text-gray-100 max-w-xs">

@@ -30,21 +30,20 @@ export const chronicles = [
     title: 'VANDERBILT ACCEPTANCE!!!!',
     description: 'FINALLY!! I officially committed to Vanderbilt University to study neuroscience on the pre‑med track.',
   },
- 
-    {
+  {
     date: '2025-08-17',
     title: 'First Day at Vanderbilt',
     description: 'Arrived in Nashville to begin studying neuroscience on the pre-med track, stepping into a new chapter of independence, purpose, and possibility.',
   },
   {
-    date: '2025-09-18',
-    title: 'Joined the Gonzalez-Hunt Lab',
-    description: 'Expanded into wet-lab neurodegeneration research, connecting molecular biology with the clinical realities of diseases like Alzheimer’s.',
-  },
-  {
     date: '2025-09-10',
     title: 'Joined the Darby Lab',
     description: 'Began research in systems neuroscience using lesion-network mapping and neuroimaging to study brain networks, consciousness, and neurological disease.',
+  },
+  {
+    date: '2025-09-18',
+    title: 'Joined the Gonzalez-Hunt Lab',
+    description: 'Expanded into wet-lab neurodegeneration research, connecting molecular biology with the clinical realities of diseases like Alzheimer’s.',
   },
   {
     date: '2025-10-02',
@@ -53,7 +52,7 @@ export const chronicles = [
   },
   {
     date: '2025-11-07',
-    title: 'Served at a Remote Area Medical Clinic',
+    title: 'First Remote Area Medical Clinic',
     description: 'Volunteered at a Remote Area Medical (RAM) clinic from November 7–9, Shadowed a Jaw Reconstruction, gave out surgical supplies in a sterile field, and made and delivered 11 pairs of glasses in lab.',
   },
   {
@@ -71,7 +70,31 @@ export const chronicles = [
     title: 'Became a RA at Morgan',
     description: 'Selected to serve as a Resident Advisor in Morgan, near the gym, and still with my friends',
   },
+  {
+    date: '2026-04-10',
+    title: 'Second Remote Area Medical Clinic',
+    description: 'Returned to serve at a Remote Area Medical (RAM) clinic in Harriman, TN from April 10–12, delivering free dental, vision, and medical care to patients who otherwise go without.',
+  },
+  {
+    date: '2026-05-01',
+    title: 'Hult Prize Nationals in Boston',
+    description: 'Traveled to Boston from May 1–4 to present DiffEx at the Hult Prize U.S. National Competition, pitching our AI-driven clinical decision support platform on the national stage.',
+  },
+  {
+    date: '2026-06-01',
+    title: 'Started VSTART Summer Research',
+    description: 'Began VSTART, the Vanderbilt summer research program, committing the summer to full-time neuroscience research.',
+  },
+  {
+    date: '2026-06-09',
+    title: 'Named an Ingram Scholar',
+    description: 'Selected for the Ingram Scholars Program at Vanderbilt—a full-ride scholarship recognizing a commitment to pairing professional ambition with sustained community service.',
+  },
+  {
+    date: '2026-07-15',
+    title: 'Building a Free Medical Camp in Guatemala',
+    description: 'Flew to Guatemala from July 15–19 to single-handedly organize a free medical camp in partnership with Hospital General San Juan de Dios, funded by the Simon Collier Grant from Vanderbilt’s CLACX (Center for Latin American, Caribbean, and Latinx Studies), while conducting public health research on the ground.',
+  },
 
   // add more entries here...
 ];
-

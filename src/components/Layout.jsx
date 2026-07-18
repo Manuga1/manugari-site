@@ -70,7 +70,7 @@ export default function Layout({ children }) {
         {children}
       </main>
       <footer className="mt-20 py-6 text-center text-gray-400 text-sm">
-	© 2025 Maanas Garimella
+	© 2026 Maanas Garimella
       </footer>
     </>
   );
