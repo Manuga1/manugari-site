@@ -3,12 +3,12 @@
 // display — so entries can be added anywhere in this array.
 export const chronicles = [
   {
-    date: '2021-09-01',
-    title: 'Senior Year Begins',
-    description: 'First day of senior year of high school—new goals: top grades, and best memories ever',
+    date: '2023-08-31',
+    title: 'Junior Year Begins',
+    description: 'First day of junior year of high school—new goals: top grades, and best memories ever',
   },
   {
-    date: '2023-08-21',
+    date: '2023-09-10',
     title: 'The Research Journey Begins',
     description: 'Kicked off my Alzheimer’s research at Des Moines University, diving into it from a biostatics and genomic perspective.',
   },
@@ -54,7 +54,7 @@ export const chronicles = [
   },
   {
     date: '2025-11-07',
-    title: 'Served at a Remote Area Medical Clinic',
+    title: 'First Remote Area Medical Clinic',
     description: 'Volunteered at a Remote Area Medical (RAM) clinic from November 7–9, Shadowed a Jaw Reconstruction, gave out surgical supplies in a sterile field, and made and delivered 11 pairs of glasses in lab.',
   },
   {
@@ -73,10 +73,8 @@ export const chronicles = [
     description: 'Selected to serve as a Resident Advisor in Morgan, near the gym, and still with my friends',
   },
 
-  // ---------------------------------------------------------------------
-  // Spring 2026. The five dates below are ESTIMATES — I did not have the
-  // real ones. Correct them and the timeline reorders itself automatically.
-  // ---------------------------------------------------------------------
+  // Spring 2026 — three dates below are still ESTIMATES (marked TODO).
+  // Correct them and the timeline reorders itself automatically.
   {
     date: '2026-03-10', // TODO(maanas): confirm date
     title: 'Advocating for PEPFAR on Capitol Hill',
@@ -88,19 +86,39 @@ export const chronicles = [
     description: 'Presented at the Vanderbilt Global Health Symposium and walked away with validation for the work I am planning in Guatemala this summer, including encouragement from pioneers in the field such as Dr. Sten Vermund.',
   },
   {
-    date: '2026-04-04', // TODO(maanas): confirm date
-    title: 'Hult Prize National Finalist — Boston',
-    description: 'Advanced to the Hult Prize National Competition in Boston as a National Finalist with DiffEx, a Bayesian differential diagnosis tool built to close the diagnostic equity gap in underserved communities.',
+    date: '2026-04-10',
+    title: 'Second Remote Area Medical Clinic',
+    description: 'Returned to serve at a Remote Area Medical (RAM) clinic in Harriman, TN from April 10–12, delivering free dental, vision, and medical care to patients who otherwise go without.',
   },
   {
     date: '2026-04-15', // TODO(maanas): confirm date
     title: 'Awarded the Simon Collier Award',
-    description: 'Awarded the Simon Collier Award to conduct medical and public health research supporting rural and Indigenous Guatemalans near Lake Atitlán this summer — a medical camp run in conjunction with Wellfield Health. Big thanks to Dr. Jonathan Hiskey for encouraging me to think big.',
+    description: 'Awarded the Simon Collier Grant from Vanderbilt’s CLACX to conduct medical and public health research supporting rural and Indigenous Guatemalans near Lake Atitlán this summer — a medical camp run in conjunction with Wellfield Health. Big thanks to Dr. Jonathan Hiskey for encouraging me to think big.',
   },
   {
     date: '2026-04-20', // TODO(maanas): confirm date
     title: 'V-START Funding for Darby Lab Research',
     description: 'Received $6,000 in V-START funding to continue neuroimaging research at Vanderbilt’s Darby Lab. Thank you to Dr. Ryan Darby and Dr. Kedar M. for your continued mentorship.',
+  },
+  {
+    date: '2026-05-01',
+    title: 'Hult Prize National Finalist — Boston',
+    description: 'Traveled to Boston from May 1–4 to present DiffEx — our AI-driven differential diagnosis tool built to close the diagnostic equity gap in underserved communities — at the Hult Prize U.S. National Competition as a National Finalist.',
+  },
+  {
+    date: '2026-06-01',
+    title: 'Started VSTART Summer Research',
+    description: 'Began VSTART, the Vanderbilt summer research program, committing the summer to full-time neuroscience research.',
+  },
+  {
+    date: '2026-06-09',
+    title: 'Named an Ingram Scholar',
+    description: 'Selected for the Ingram Scholars Program at Vanderbilt—a full-ride scholarship recognizing a commitment to pairing professional ambition with sustained community service.',
+  },
+  {
+    date: '2026-07-15',
+    title: 'Building a Free Medical Camp in Guatemala',
+    description: 'Flew to Guatemala from July 15–19 to solo organize a free medical camp in partnership with Hospital General San Juan de Dios and Wellfield Health, funded by the Simon Collier Grant from Vanderbilt’s CLACX (Center for Latin American, Caribbean, and Latinx Studies), while conducting public health research on the ground.',
   },
 
   // add more entries here...

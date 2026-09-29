@@ -50,12 +50,6 @@ export default function Layout({ children }) {
             <Link href="/images" className="hover:text-blue-600 dark:hover:text-blue-400 transition">Images</Link>
             <Link href="/chronicles" className="hover:text-blue-600 dark:hover:text-blue-400 transition">Chronicles</Link>
             <Link href="/projects" className="hover:text-blue-600 dark:hover:text-blue-400 transition">Projects</Link>
-<Link
-  href="/neuro101"
-  className="hover:text-blue-600 dark:hover:text-blue-400 transition"
->
-  Neuro 101
-</Link>
             <button
               onClick={toggleTheme}
               aria-label="Toggle dark/light mode"
@@ -70,7 +64,7 @@ export default function Layout({ children }) {
         {children}
       </main>
       <footer className="mt-20 py-6 text-center text-gray-400 text-sm">
-	© 2025 Maanas Garimella
+	© 2026 Maanas Garimella
       </footer>
     </>
   );

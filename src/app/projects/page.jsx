@@ -3,12 +3,12 @@ import { projects } from '../../data/projects';
 
 export const metadata = {
   title: 'Projects | Manu',
-  description: 'Research and engineering projects at the intersection of neuroscience and machine learning.',
+  description: 'Research and engineering projects at the intersection of neuroscience, medicine, and machine learning.',
 };
 
 function ProjectCard({ project }) {
-  const body = (
-    <>
+  return (
+    <div className="border p-6 rounded-lg hover:shadow-lg transition dark:border-gray-700">
       <div className="flex items-baseline justify-between gap-4">
         <h3 className="text-2xl font-bold">{project.title}</h3>
         {project.status && (
@@ -18,7 +18,20 @@ function ProjectCard({ project }) {
         )}
       </div>
 
-      <p className="text-gray-600 dark:text-gray-400 mt-2 leading-relaxed">{project.blurb}</p>
+      {project.subtitle && (
+        <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">{project.subtitle}</p>
+      )}
+
+      <p className="text-gray-600 dark:text-gray-400 mt-3 leading-relaxed">{project.blurb}</p>
+
+      {project.details && (
+        <details className="mt-4 group">
+          <summary className="cursor-pointer text-blue-600 dark:text-blue-400 hover:underline text-sm font-medium">
+            {project.details.summary}
+          </summary>
+          <p className="text-gray-600 dark:text-gray-400 mt-3 leading-relaxed">{project.details.body}</p>
+        </details>
+      )}
 
       {(project.tags || project.period) && (
         <div className="mt-4 flex flex-wrap items-center gap-2">
@@ -37,27 +50,14 @@ function ProjectCard({ project }) {
       )}
 
       {project.slug && (
-        <span className="inline-block mt-4 text-sm font-medium text-blue-600 dark:text-blue-400">
+        <Link
+          href={`/projects/${project.slug}`}
+          className="inline-block mt-4 text-sm font-medium text-blue-600 dark:text-blue-400"
+        >
           Read the write-up →
-        </span>
+        </Link>
       )}
-    </>
-  );
-
-  const cardClass =
-    'block border p-6 rounded-lg hover:shadow-lg transition dark:border-gray-700';
-
-  // Linked cards suppress the site-wide animated <a> underline (globals.css),
-  // which otherwise sweeps across the full card width on hover.
-  return project.slug ? (
-    <Link
-      href={`/projects/${project.slug}`}
-      className={`${cardClass} after:hidden hover:border-blue-500 dark:hover:border-blue-400`}
-    >
-      {body}
-    </Link>
-  ) : (
-    <div className={cardClass}>{body}</div>
+    </div>
   );
 }
 
