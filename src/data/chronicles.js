@@ -1,4 +1,6 @@
 // src/data/chronicles.js
+// Rendered by src/components/Timeline.jsx, which sorts by `date` before
+// display — so entries can be added anywhere in this array.
 export const chronicles = [
   {
     date: '2021-09-01',
@@ -30,16 +32,10 @@ export const chronicles = [
     title: 'VANDERBILT ACCEPTANCE!!!!',
     description: 'FINALLY!! I officially committed to Vanderbilt University to study neuroscience on the pre‑med track.',
   },
- 
-    {
+  {
     date: '2025-08-17',
     title: 'First Day at Vanderbilt',
     description: 'Arrived in Nashville to begin studying neuroscience on the pre-med track, stepping into a new chapter of independence, purpose, and possibility.',
-  },
-  {
-    date: '2025-09-18',
-    title: 'Joined the Gonzalez-Hunt Lab',
-    description: 'Expanded into wet-lab neurodegeneration research, connecting molecular biology with the clinical realities of diseases like Alzheimer’s.',
   },
   {
     date: '2025-09-10',
@@ -50,6 +46,11 @@ export const chronicles = [
     date: '2025-10-02',
     title: 'Partners in Health Leadership',
     description: 'Joined the Presidential Advisory Committee, helping guide student-led global health initiatives focused on equity and access to care.',
+  },
+  {
+    date: '2025-11-01',
+    title: 'Patient Transporter at TriStar Centennial',
+    description: 'Started working as a Patient Transporter at TriStar Centennial Medical Center in Nashville — two shifts a week, around ten hours each.',
   },
   {
     date: '2025-11-07',
@@ -72,6 +73,35 @@ export const chronicles = [
     description: 'Selected to serve as a Resident Advisor in Morgan, near the gym, and still with my friends',
   },
 
+  // ---------------------------------------------------------------------
+  // Spring 2026. The five dates below are ESTIMATES — I did not have the
+  // real ones. Correct them and the timeline reorders itself automatically.
+  // ---------------------------------------------------------------------
+  {
+    date: '2026-03-10', // TODO(maanas): confirm date
+    title: 'Advocating for PEPFAR on Capitol Hill',
+    description: 'Traveled to Washington, D.C. with Partners In Health Engage to advocate for global health funding for developing nations, leading meetings with multiple opposing-party Members of Congress to make the case for PEPFAR.',
+  },
+  {
+    date: '2026-03-27', // TODO(maanas): confirm date
+    title: 'Presented at the Vanderbilt Global Health Symposium',
+    description: 'Presented at the Vanderbilt Global Health Symposium and walked away with validation for the work I am planning in Guatemala this summer, including encouragement from pioneers in the field such as Dr. Sten Vermund.',
+  },
+  {
+    date: '2026-04-04', // TODO(maanas): confirm date
+    title: 'Hult Prize National Finalist — Boston',
+    description: 'Advanced to the Hult Prize National Competition in Boston as a National Finalist with DiffEx, a Bayesian differential diagnosis tool built to close the diagnostic equity gap in underserved communities.',
+  },
+  {
+    date: '2026-04-15', // TODO(maanas): confirm date
+    title: 'Awarded the Simon Collier Award',
+    description: 'Awarded the Simon Collier Award to conduct medical and public health research supporting rural and Indigenous Guatemalans near Lake Atitlán this summer — a medical camp run in conjunction with Wellfield Health. Big thanks to Dr. Jonathan Hiskey for encouraging me to think big.',
+  },
+  {
+    date: '2026-04-20', // TODO(maanas): confirm date
+    title: 'V-START Funding for Darby Lab Research',
+    description: 'Received $6,000 in V-START funding to continue neuroimaging research at Vanderbilt’s Darby Lab. Thank you to Dr. Ryan Darby and Dr. Kedar M. for your continued mentorship.',
+  },
+
   // add more entries here...
 ];
-
