@@ -28,6 +28,11 @@ export const chronicles = [
     description: 'Took home first place at the DMU Research Symposium for my Alzheimer’s project.',
   },
   {
+    date: '2025-05-10', // TODO(maanas): confirm date — you said "like May"; semifinalists are usually announced in April
+    title: 'U.S. Presidential Scholars Semifinalist',
+    description: 'Named a semifinalist for the U.S. Presidential Scholars Program in senior year — shortlisted nationally for one of the highest honors for graduating high-school seniors, recognizing academic achievement, essays, and service.',
+  },
+  {
     date: '2025-05-15',
     title: 'VANDERBILT ACCEPTANCE!!!!',
     description: 'FINALLY!! I officially committed to Vanderbilt University to study neuroscience on the pre‑med track.',
