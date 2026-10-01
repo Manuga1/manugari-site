@@ -1,7 +1,8 @@
 'use client';
 
 import Link from 'next/link';
-import { blogPosts } from '../data/blogPosts';
+// BLOG — disabled for now; uncomment to bring it back
+// import { blogPosts } from '../data/blogPosts';
 import { chronicles } from '../data/chronicles';
 import { useState, useEffect } from 'react';
 
@@ -27,10 +28,10 @@ export default function Home() {
   const milestone = upcoming || sortedChronicles[sortedChronicles.length - 1];
   const milestoneLabel = upcoming ? 'Upcoming Milestone' : 'Latest Milestone';
 
-  // Most recent blog post
-  const latestPost = [...blogPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
-  )[0];
+  // BLOG — disabled for now; uncomment to bring it back
+  // const latestPost = [...blogPosts].sort(
+  //   (a, b) => new Date(b.date) - new Date(a.date)
+  // )[0];
 
   return (
     <>
@@ -74,8 +75,8 @@ export default function Home() {
       {/* At a Glance Highlights */}
       <section className="py-12 max-w-4xl mx-auto px-4">
         <h2 className="text-3xl font-semibold mb-6">At a Glance</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {/* Latest Blog Post */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          {/* BLOG — "Latest Blog Post" card disabled for now; uncomment to bring it back
           <div className="border p-6 rounded-lg hover:shadow-lg transition dark:border-gray-700">
             <h3 className="text-xl font-semibold">Latest Blog Post</h3>
             <p className="text-gray-500 dark:text-gray-400 mt-1">
@@ -88,6 +89,7 @@ export default function Home() {
               {latestPost.title} →
             </Link>
           </div>
+          */}
 
           {/* Top Project */}
           <div className="border p-6 rounded-lg hover:shadow-lg transition dark:border-gray-700">

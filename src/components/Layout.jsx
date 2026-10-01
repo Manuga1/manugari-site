@@ -46,7 +46,9 @@ export default function Layout({ children }) {
         <div className="max-w-2xl mx-auto flex justify-between items-center py-6 px-4">
           <Link href="/" className="text-2xl font-semibold">Manu</Link>
           <nav className="space-x-6 text-sm uppercase tracking-widest">
+            {/* BLOG — disabled for now; uncomment to bring it back (also see src/app/_blog and src/app/page.jsx)
             <Link href="/blog" className="hover:text-blue-600 dark:hover:text-blue-400 transition">Blog</Link>
+            */}
             <Link href="/images" className="hover:text-blue-600 dark:hover:text-blue-400 transition">Images</Link>
             <Link href="/chronicles" className="hover:text-blue-600 dark:hover:text-blue-400 transition">Chronicles</Link>
             <Link href="/projects" className="hover:text-blue-600 dark:hover:text-blue-400 transition">Projects</Link>

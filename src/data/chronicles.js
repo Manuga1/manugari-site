@@ -73,7 +73,7 @@ export const chronicles = [
     description: 'Selected to serve as a Resident Advisor in Morgan, near the gym, and still with my friends',
   },
 
-  // Spring 2026 — three dates below are still ESTIMATES (marked TODO).
+  // Spring 2026 — four dates below are still ESTIMATES (marked TODO).
   // Correct them and the timeline reorders itself automatically.
   {
     date: '2026-03-10', // TODO(maanas): confirm date
